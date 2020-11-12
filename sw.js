@@ -15,6 +15,7 @@ const ARCHIVOS = [
   "js/registraServiceWorker.js",
   "favicon.ico",
   "index.html",
+  "formFisica.html",
   "manifest.json",
   '/'
 ];
