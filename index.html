@@ -3,7 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ejemplo de PWA</title>
+    <title>PWA VAN</title>
+     <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet">
+    
     <script src="js/registraServiceWorker.js"></script>
 
     <!-- Ícono para la página web. Debe ponerse en la raíz de la página. -->
@@ -27,12 +30,80 @@
     <script type="module" src="cmp/mi-footer.js"></script>
     <link rel="stylesheet" href="css/estilos.css">
   <body>
-    <h1>PWA VAN</h1>
-    <p>Hola</p>
-    <footer>
-      <p>
-        <mi-footer></mi-footer>
-      </p>
-    </footer>
+    <style>
+      :root {
+        --color-primario: black;
+        --color-primario-fondo: #ff0080;
+        --color-contenido: black;
+        --color-contenido-fondo: white;
+        --color-active: #4646462c;
+        --font-family: -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+        color: var(--color-contenido);
+        background-color: var(--color-contenido-fondo);
+        font-family: var(--font-family);
+      }
+
+      body {
+        margin: 0;
+      }
+      nav {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
+
+      nav ul {
+        color: var(--color-primario);
+        background-color: var(--color-primario-fondo);
+        display: flex;
+        list-style-type: none;
+        justify-content: center;
+        align-items: stretch;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav ul li a {
+        display: block;
+        color: var(--color-letra-primario);
+        font-size: 0.75rem;
+        text-decoration: none;
+        padding: 0.5rem 0.75rem 0.75rem 0.75rem;
+        text-align: center;
+      }
+
+      nav li a span.material-icons {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      nav ul li a:active {
+        background-color: var(--color-active);
+      }
+      h1{
+ text-align:center;
+
+font-size: 800%;
+         }
+   
+    </style>
+  </head>
+  <body>
+    <form>
+      <div >
+        <h1>BIENVENIDO</h1>
+ 
+        
+    </div>
+      <nav>
+        <ul>
+          <li>
+            <a class="btn bnt-secondary"href="formFisica.html"> <span class="material-icons">home</span>Iniciar </a>
+          
+        </ul>
+      </nav>
+    </form>
   </body>
 </html>
