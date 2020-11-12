@@ -3,7 +3,7 @@
  * se reinstale. Normalmente se cambia el número en el nombre del caché cuando
  * cambia el contenido de los archivos. Espera 11 minutos después de hacer los
  * cambios en tu sitio, para depués actualizar este archivo. */
-const CACHE = "van14-1.00";
+const CACHE = "van123782.00";
 
 /**  Archivos requeridos para que la aplicación funcione fuera de línea. */
 const ARCHIVOS = [
