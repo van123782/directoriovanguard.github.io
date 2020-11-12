@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegación Inferior</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet">
+      <link type="text/css" href="estilos.css" rel="stylesheet">
+    <style>
+      :root {
+        --color-primario: black;
+        --color-primario-fondo: #ff0080;
+        --color-contenido: black;
+        --color-contenido-fondo: white;
+        --color-active: #4646462c;
+        --font-family: -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+        color: var(--color-contenido);
+        background-color: var(--color-contenido-fondo);
+        font-family: var(--font-family);
+      }
+
+      body {
+        margin: 0;
+      }
+      nav {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
+
+      nav ul {
+        color: var(--color-primario);
+        background-color: var(--color-primario-fondo);
+        display: flex;
+        list-style-type: none;
+        justify-content: center;
+        align-items: stretch;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav ul li a {
+        display: block;
+        color: var(--color-letra-primario);
+        font-size: 0.75rem;
+        text-decoration: none;
+        padding: 0.5rem 0.75rem 0.75rem 0.75rem;
+        text-align: center;
+      }
+
+      nav li a span.material-icons {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      nav ul li a:active {
+        background-color: var(--color-active);
+      }
+      h1{
+ text-align:center;
+
+font-size: 800%;
+         }
+   
+    </style>
+
+    
+  </head>
+
+  
+  <body>
+   
+      <form name="calculator">
+        <h3>Calculadora Para Formulas Fisicas y Matematicas</h3>
+       
+        <input type="textfield" name="ans" value="">
+        <br>
+        <input type="button" value="1" onClick="document.calculator.ans.value+='1'">
+        <input type="button" value="2" onClick="document.calculator.ans.value+='2'">
+        <input type="button" value="3" onClick="document.calculator.ans.value+='3'">
+        <input type="button" value="+" onClick="document.calculator.ans.value+='+'">
+        <br>
+        <input type="button" value="4" onClick="document.calculator.ans.value+='4'">
+        <input type="button" value="5" onClick="document.calculator.ans.value+='5'">
+        <input type="button" value="6" onClick="document.calculator.ans.value+='6'">
+        <input type="button" value="-" onClick="document.calculator.ans.value+='-'">
+        <br>
+        <input type="button" value="7" onClick="document.calculator.ans.value+='7'">
+        <input type="button" value="8" onClick="document.calculator.ans.value+='8'">
+        <input type="button" value="9" onClick="document.calculator.ans.value+='9'">
+        <input type="button" value="*" onClick="document.calculator.ans.value+='*'">
+        <br>
+        <input type="button" value="0" onClick="document.calculator.ans.value+='0'">
+        <input type="reset" value="c">
+        <input type="button" value="/" onClick="document.calculator.ans.value+='/'">
+        <input type="button" value="=" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)">
+        </form>
+        <body>
+          <style>
+          form {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    border: solid 1px #15F38E;
+    padding-bottom: 10px;
+    margin: auto;
+    background: #C715F3;
+  }
+  input[type=textfield] {
+      width: 75%;
+      padding: 16px 32px;
+      font-size: 16px;
+      margin: 8px 0;
+      border: 1px solid #AE1BF2;
+      border-radius: 1px;
+      text-align: left;
+      color: #010101;
+      background: 15F3C7;
+  }
+  input[type=button], input[type=submit], input[type=reset] {
+      background-color: #ff0080;
+      border: none;
+      color: #010101;
+      padding: 16px 32px;
+      font-size: 16px;
+      min-width: 21%;
+      text-decoration: none;
+      margin: 4px 2px;
+      cursor: pointer;
+  }
+  input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+    background-color: #1BF2CE;
+  }
+
+
+
+          </style>
+
+
+
+        </body>
+    </body>
+</html>
+
+
+    <form>
+      
+      <nav>
+        <ul>
+          <li>
+            <a class="btn bnt-danger"href="index.html"> <span class="material-icons"></span>Regresar </a>
+          
+        </ul>
+      </nav>
+    </form>
+  </body>
+</html
