@@ -121,12 +121,12 @@ input:focus ~ .linea::before {
 }
 
 table {
-	width: 560px !important;
+	width: 800px !important;
 	border-radius: 12px;
 	box-shadow: 10px 8px 30px rgba(76, 83, 94, 0.219);
 }
 th {
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 700;
 }
 thead tr {
