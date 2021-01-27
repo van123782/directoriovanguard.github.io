@@ -22,7 +22,7 @@ const ARCHIVOS = [
   "img/puesto.png",
   "js/registraServiceWorker.js",
   "js/jquery-3.5.1.js",
-  "js/jquery-mask.js",
+  "js/jquery.mask.js",
   "js/main.js",
   "favicon.ico",
   "index.html",
